@@ -1,0 +1,204 @@
+.shopContainer {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    /* align-items: center; */
+    width: 99vw;
+    gap: 30px;
+    /* border: 2px solid black; */
+    margin-top: 60px;
+    margin-bottom: 150px;
+    color: rgb(0, 0, 0);
+    /* background-color: antiquewhite; */
+}
+
+.left {
+    width: 20%;
+    /* height: 99vh; */
+    font-family: sans-serif;
+    /* background-color: rgb(123, 221, 223); */
+}
+
+.heading {
+    font-size: large;
+}
+
+.Catogary {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Catogary div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.therangecolor {
+    background-color: #40A944;
+    outline: none;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.rangbtn {
+    width: 70px;
+    height: 30px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    border: none;
+}
+
+.rangbtn:hover {
+    background-color: #40A944;
+    color: white;
+}
+
+.Catogary span {
+    font-size: 13px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: rgb(44, 44, 44);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.Catogary span:hover {
+    color: #40A944;
+}
+
+hr {
+    border: 1px solid rgba(220, 220, 220, 0.546);
+}
+
+.Catogarybtn {
+    width: 310px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.Catogarybtn button {
+    width: 75px;
+    margin: 1px;
+    padding: auto;
+    border-radius: 5px;
+    background-color: white;
+    transition: 300ms;
+    border: 1px solid rgb(237, 235, 235);
+}
+
+.Catogarybtn button:hover {
+    background-color: #40A944;
+    color: white;
+}
+
+
+.right {
+    width: 55%;
+    /* border: 2px solid black; */
+
+}
+
+.photoContainer {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(41, 55, 183); */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+.photoContainer img {
+    width: 250px;
+    height: 250px;
+}
+
+.shopContainerTop {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding: 15px 20px;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(236, 236, 236);
+    color: rgb(77, 77, 77);
+    width: 98%;
+    margin-left: 8px;
+}
+
+.shopContainerTop select {
+    padding: 5px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border: 2px solid rgb(236, 236, 236);
+    outline: none;
+    color: rgb(60, 60, 60);
+}
+
+.gridContainer {
+    display: flex;
+    gap: 15px;
+
+    justify-content: space-evenly;
+}
+
+/* .grid1:hover {
+    
+} */
+.grids {
+    opacity: 0.3;
+}
+
+.grids:hover {
+    opacity: 1;
+}
+
+.Shopdescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 8px;
+}
+
+.shopContainerBottom {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* background-color: bisque; */
+    border: 2px solid rgb(236, 236, 236);
+    padding: 10px;
+}
+
+
+
+.shopContainerBottom button {
+    width: 38px;
+    height: 26px;
+    padding: 4px;
+    background-color: #eeeeee;
+    color: rgb(58, 58, 58);
+}
+
+.shopContainerBottom button:hover {
+    background-color: #40A944;
+    color: white;
+}
+
+.shopContainerBottom :first-child {
+    background-color: #40A944;
+    color: white;
+}

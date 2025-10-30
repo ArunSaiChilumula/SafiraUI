@@ -1,0 +1,887 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* drop down */
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: #000000;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-radius: 4px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    /* transition: 10ms; */
+}
+
+.dropdown:hover .dropbtn {
+    color: #1b5e20;
+}
+
+
+/* 
+.language-popup select {
+    border: 1px solid white;
+    outline: none;
+}
+
+
+.currency-popup select {
+    border: none;
+    outline: none;
+} */
+
+.Header1 {
+
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 0.5rem;
+    /* border: 2px solid black; */
+}
+
+.header-top-right {
+    display: flex;
+    /* background-color: blue; */
+    justify-content: center;
+    gap: 2%;
+    align-items: center;
+    width: 38%;
+}
+
+.space {
+    display: flex;
+    /* background-color: rgb(42, 42, 84); */
+    justify-content: center;
+
+    align-items: center;
+    width: 24%;
+}
+
+.header-top-left {
+    display: flex;
+    gap: 2%;
+    /* background-color: rgb(149, 149, 155); */
+    justify-content: center;
+
+    align-items: center;
+    width: 38%;
+}
+
+/* svg color change while hover */
+svg:hover {
+    color: #80B82D;
+}
+
+/* .cartSection svg:hover {
+    color: #000000;
+} */
+
+/* title component css */
+
+.titleComponent {
+    background-color: #80B82D;
+    height: 100px;
+    width: 100%;
+}
+
+.titleComponent-left input {
+    /* text-decoration: none; */
+    background-color: #80B82D;
+    /* text-decoration: underline; */
+    outline: none;
+    text-decoration: underline;
+    border: none;
+    color: white;
+
+}
+
+.titleComponent-left ::placeholder {
+    color: rgb(247, 245, 245);
+    font-size: medium;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.btncart {
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border: none;
+    /* padding: px; */
+    border-radius: 100%;
+}
+
+.titleComponent {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.loginSection span {
+    color: white;
+}
+
+.titleComponent-left {
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.titleComponent-center {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleComponent-right {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap: 15px;
+
+}
+
+.loginSection>a {
+
+    /* border: 2px solid black; */
+    margin: 5px;
+}
+
+.loginSection a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-decoration: none;
+}
+
+.loginTitle:hover {
+    color: black;
+}
+
+.cartSection {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 11px;
+    color: white;
+}
+
+.svg2 svg:hover {
+    color: #383838;
+    /* background-color: #000000;
+    border: 2px solid black; */
+}
+
+
+.wishlist {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.cart {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+/* Navigation styles */
+.NavigationMain {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 0.5rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    /* for Safari */
+    transition: all 0.3s ease;
+}
+
+.NavigationMain ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.NavigationMain li {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 530;
+    color: #424242;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.NavigationMain li:hover {
+    color: #80B82D;
+}
+
+.textlink {
+    text-decoration: none;
+}
+
+
+/* navbar dropdown */
+
+.navdropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.navdropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    min-width: 800px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-radius: 4px;
+}
+
+.navdropdowncontent a {
+    color: black;
+    text-decoration: none;
+}
+
+.navdropdown:hover .navdropdowncontent {
+    /* display: block; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.cosmetic {
+
+    width: 33.3%;
+}
+
+.fashion {
+
+    width: 33.3%;
+}
+
+.organic {
+
+    width: 33.3%;
+}
+
+.navdropdowncontent div {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.navdropdowncontent div a {
+
+    margin: 5px 0;
+}
+
+.navdropdowncontent div a:hover {
+
+    color: #80B82D;
+}
+
+.banner1 {
+    background-image: url(../public/images/slider4.jpg);
+    height: 55vh;
+    width: 99vw;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* justify-items: center; */
+    /* align-items: center; */
+    /* border: 2px solid black; */
+    padding: 90px 120px;
+}
+
+.banner1left {
+    width: 40vw;
+    height: 40vh;
+    /* border: 2px solid black; */
+    margin-left: 70px;
+}
+
+.banner1left p {
+    margin: 12px 0;
+}
+
+
+.bannerfont1 {
+    display: flex;
+    font-family: sans-serif;
+    font-size: 300%;
+    font-weight: bold;
+
+}
+
+.bannerfont2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 34px;
+    font-weight: 100;
+    color: #585757;
+    width: 40vw;
+}
+
+.bannerfont3 {
+    font-family: sans-serif;
+    font-size: medium;
+    width: 25vw;
+    color: #424242;
+}
+
+.bannerbtn {
+    background-color: #80B82D;
+    padding: 12px 11px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    width: 9rem;
+    color: white;
+    transition: 500ms;
+}
+
+.bannerbtn:hover {
+    background-color: #333;
+}
+
+/* show images container */
+
+.ShowImagesContainer {
+    margin: 70px 70px 0 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.ShowImageRight {
+    display: flex;
+    flex-direction: column;
+    /* column-gap: 5%; */
+}
+
+.ShowImageRight img {
+    margin-bottom: 16px;
+
+}
+
+/* TrendingProducts Component */
+
+.CourousalContainer {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CourousalContainer>p {
+    margin-bottom: 10px;
+}
+
+.HeadingTop {
+    font-style: italic;
+    font-size: 16.5px;
+    color: #494848;
+}
+
+
+
+.HeadingTitle {
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+.TrendingProductsButtons {
+    display: flex;
+    gap: 4%;
+    /* border: 2px solid black; */
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.tpbtn1 {
+    padding: 6px 15px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #80B82D;
+    border: 1px solid#80B82D;
+    margin: 19px 0;
+}
+
+.tpbtn {
+    border: none;
+    background-color: white;
+    padding: 7px 16px;
+    font-size: 14px;
+    margin: 19px 0;
+}
+
+.tpbtn:hover {
+    padding: 6px 15px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #80B82D;
+    border: 1px solid#80B82D;
+    margin: 19px 0;
+}
+
+.Courousal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.Courousal p,
+pre {
+    display: flex;
+    justify-content: center;
+
+    margin: 10px;
+}
+
+.tpp1 {
+    font-family: sans-serif;
+    color: #333;
+}
+
+.tpp2 {
+    font-family: sans-serif;
+    font-size: small;
+    color: #333;
+}
+
+.tpp3 {
+    font-family: sans-serif;
+    color: #80B82D;
+}
+
+.strike {
+    text-decoration: line-through;
+    color: black;
+}
+
+/* Banner2 Component */
+
+.banner2 {
+    background-image: url(../public/images/banner3.jpg);
+    height: 44vh;
+    width: 99vw;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* justify-items: center; */
+    /* align-items: center; */
+    /* border: 2px solid black; */
+    margin-top: 60px;
+    padding: 60px 210px;
+}
+
+.banner2font1 {
+    font-family: sans-serif;
+    color: #80B82D;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.banner2font2 {
+    font-family: sans-serif;
+    font-size: 41px;
+    font-weight: 549;
+    margin-top: 10px;
+}
+
+.banner2font3 {
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #3c3a3a;
+    margin-top: 9px;
+}
+
+.banner2btn {
+    background-color: #80B82D;
+    padding: 13px 19px;
+    margin-top: 45px;
+    border-radius: 10px;
+    border: none;
+    width: 9rem;
+    color: white;
+    transition: 500ms;
+}
+
+.banner2btn:hover {
+    background-color: #333;
+}
+
+.BestSellersContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.banner2left {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.InnerBestSellersContainer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.bsp {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: #000000; */
+}
+
+.tpdescription {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+.bsp img {
+    height: 120px;
+    width: 120px;
+
+}
+
+.BestSellersContainer2 {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+
+/* Blog post component */
+
+.BlogPostsContainer {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.InnerBlogPostsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 18px;
+}
+
+.BlogpPostsDesc {
+    width: 300px;
+    font-family: sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.BlogpPostsDesc:hover {
+    color: #80B82D;
+}
+
+.BlogPostsContainerImg {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bpbtn {
+    background-color: #80B82D;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 15px;
+    width: 15px;
+}
+
+.Banner3 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* featured products components */
+
+.FeaturedProductsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.InnerFeaturedProductsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.InnerFeaturedProductsContainer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    /* margin-bottom: 40px; */
+    /* column-gap: 20px; */
+}
+
+.IfpcProduct {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.InnerFeaturedProductsContainer2 img {
+    height: 120px;
+    width: 120px;
+}
+
+.BrandImagesContainer {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.BrandImagesContainer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border: 2px solid#f6f2f2;
+    border-radius: 8px;
+    width: 73vw;
+    padding: 20px 5px;
+}
+
+.BrandImagesContainer2 img {
+    opacity: 0.5;
+    transition: 500ms;
+}
+
+.BrandImagesContainer2 img:hover {
+    opacity: 0.9;
+}
+
+/* footer component */
+
+.FooterContainer {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 70px;
+    width: 99vw;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #434343;
+}
+
+.FooterTop {
+    display: flex;
+    flex-direction: row;
+    gap: 82px;
+}
+
+.FooterTop1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.FooterTop1 img {
+    height: 28px;
+    width: 118px;
+}
+
+.FooterTop1 span {
+    font-weight: bold;
+}
+
+/* .FooterTop2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.FooterTop3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.FooterTop4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} */
+
+.FooterTop1Desc {
+    height: 60px;
+    width: 300px;
+}
+
+.FooterTop2 p {
+    margin-bottom: 20px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.FooterTop2 li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.FooterTop3 p:first-child {
+
+    margin-bottom: 20px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.footerp2 {
+    width: 250px;
+}
+
+.subscribebtn {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.subscribebtn input {
+    width: 220px;
+    height: 45px;
+    padding: 15px;
+    border: 0.5px solid rgba(0, 0, 0, 0.124);
+
+    border-radius: 22px 0px 0px 22px;
+    outline: none;
+}
+
+.subscribebtn button {
+    width: 100px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 0 21px 21px 0;
+    background-color: #80B82D;
+    border: none;
+    color: white;
+    transition: 500ms;
+}
+
+.subscribebtn button:hover {
+    background-color: #333;
+}
+
+.FooterBottom {
+    height: 100px;
+    width: 99vw;
+    margin-top: 50px;
+    background-color: #80B82D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.FooterBottomRight {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.FooterBottomRight img {
+    border-radius: 3px;
+}
