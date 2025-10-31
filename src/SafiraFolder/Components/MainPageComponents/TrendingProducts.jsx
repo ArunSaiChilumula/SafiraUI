@@ -18,25 +18,25 @@ const TrendingProducts = () => {
                     <pre className='tpp3'>$36.00  <span className='strike'>$145.00</span></pre>
                 </div>
                 <div>
-                    <img src="public\images\product3.jpg" alt="vegetables" />
+                    <img src="/images/product3.jpg" alt="vegetables" />
                     <p className='tpp1'>Aliquam Consequat</p>
                     <p className='tpp2'>Fruits</p>
                     <pre className='tpp3'>$26.00  <span className='strike'>$362.00</span></pre>
                 </div>
                 <div>
-                    <img src="public\images\product5.jpg" alt="vegetables" />
+                    <img src="/images/product5.jpg" alt="vegetables" />
                     <p className='tpp1'>Donec Non Est</p>
                     <p className='tpp2'>Fruits</p>
                     <pre className='tpp3'>$46.00  <span className='strike'>$382.00</span></pre>
                 </div>
                 <div>
-                    <img src="public\images\product7.jpg" alt="vegetables" />
+                    <img src="/images/product7.jpg" alt="vegetables" />
                     <p className='tpp1'>Etiam Gravida</p>
                     <p className='tpp2'>Fruits</p>
                     <pre className='tpp3'>$56.00  <span className='strike'>$322.00</span></pre>
                 </div>
                 <div>
-                    <img src="public\images\product9.jpg" alt="vegetables" />
+                    <img src="/images/product9.jpg" alt="vegetables" />
                     <p className='tpp1'>Fusce Aliquam</p>
                     <p className='tpp2'>Fruits</p>
                     <pre className='tpp3'>$66.00  <span className='strike'>$312.00</span></pre>

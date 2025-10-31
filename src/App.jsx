@@ -4,10 +4,13 @@ import LoginPage from './SafiraFolder/Pages/LoginPage.jsx'
 import { Route, Routes } from 'react-router-dom'
 import ContactUsPage from './SafiraFolder/Pages/ContactUsPage.jsx'
 import Shop from './SafiraFolder/Pages/Shop.jsx'
+import BlogPage from './SafiraFolder/Pages/BlogPage.jsx'
 const App = () => {
   return (
     <Routes>
       <Route path='/' element={<MainPage />}></Route>
+
+      <Route path='/Blog' element={<BlogPage />}></Route>
       <Route path='/login' element={<LoginPage />}></Route>
       <Route path='/contactUs' element={<ContactUsPage />}></Route>
       <Route path='/Shop' element={<Shop />}></Route>

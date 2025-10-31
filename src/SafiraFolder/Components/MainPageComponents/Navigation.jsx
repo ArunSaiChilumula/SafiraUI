@@ -35,7 +35,11 @@ const Navigation = () => {
                 <Link to="/Shop" className='textlink'>
                     <li>Shop ⏷</li>
                 </Link>
-                <li>Blog ⏷</li>
+
+                <Link to="/Blog" className='textlink'>
+                    <li>Blog ⏷</li>
+                </Link>
+
                 <li>Pages ⏷</li>
                 <Link to="/contactUs" className='textlink'>
                     <li >Contact Us</li>

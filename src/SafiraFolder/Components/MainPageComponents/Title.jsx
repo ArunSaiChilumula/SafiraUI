@@ -10,7 +10,7 @@ const Title = () => {
             </div>
             <div className="titleComponent-center">
                 <Link to="/">
-                    <img src="public\images\logo2.webp" alt="logo" />
+                    <img src="/images/logo2.webp" alt="logo" />
                 </Link>
             </div>
             <div className="titleComponent-right">

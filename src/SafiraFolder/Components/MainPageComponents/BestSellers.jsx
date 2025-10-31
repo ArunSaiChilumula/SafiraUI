@@ -19,7 +19,7 @@ const BestSellers = () => {
                         </div>
                     </div>
                     <div className='bsp'>
-                        <img src="public\images\product3.jpg" alt="" />
+                        <img src="/images/product3.jpg" alt="" />
                         <div className='tpdescription'>
                             <p className='tpp1'>Lorem Ipsum Lec</p>
                             <p className='tpp2'>Fruits</p>
@@ -27,7 +27,7 @@ const BestSellers = () => {
                         </div>
                     </div>
                     <div className='bsp'>
-                        <img src="public\images\product5.jpg" alt="" />
+                        <img src="/images/product5.jpg" alt="" />
                         <div className='tpdescription'>
                             <p className='tpp1'>Lorem Ipsum Lec</p>
                             <p className='tpp2'>Fruits</p>
@@ -37,7 +37,7 @@ const BestSellers = () => {
                 </div>
                 <div className="BestSellersContainer2">
                     <div className='bsp'>
-                        <img src="public\images\product9.jpg" alt="" />
+                        <img src="/images/product9.jpg" alt="" />
                         <div className='tpdescription'>
                             <p className='tpp1'>Lorem Ipsum Lec</p>
                             <p className='tpp2'>Fruits</p>
@@ -45,7 +45,7 @@ const BestSellers = () => {
                         </div>
                     </div>
                     <div className='bsp'>
-                        <img src="public\images\product6.jpg" alt="" />
+                        <img src="/images/product6.jpg" alt="" />
                         <div className='tpdescription'>
                             <p className='tpp1'>Lorem Ipsum Lec</p>
                             <p className='tpp2'>Fruits</p>
@@ -53,7 +53,7 @@ const BestSellers = () => {
                         </div>
                     </div>
                     <div className='bsp'>
-                        <img src="public\images\product7.jpg" alt="" />
+                        <img src="/images/product7.jpg" alt="" />
                         <div className='tpdescription'>
                             <p className='tpp1'>Lorem Ipsum Lec</p>
                             <p className='tpp2'>Fruits</p>

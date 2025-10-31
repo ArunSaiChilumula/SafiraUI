@@ -567,11 +567,12 @@ pre {
 
 .banner2btn {
     background-color: #80B82D;
-    padding: 13px 19px;
+    padding: 11px 19px;
     margin-top: 45px;
     border-radius: 10px;
     border: none;
-    width: 9rem;
+    width: 11rem;
+    height: 2.8rem;
     color: white;
     transition: 500ms;
 }

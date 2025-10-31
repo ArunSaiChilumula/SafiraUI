@@ -117,7 +117,7 @@ const ShopContent = () => {
                     <hr />
                 </div>
                 <div className='Catogarybtn'>
-                    <button >Men</button>
+                    <button>Men</button>
                     <button>Women</button>
                     <button>Watches</button>
                     <button>Bags</button>
@@ -128,6 +128,7 @@ const ShopContent = () => {
                 </div>
 
                 <div className='banner'>
+                    <img src="/images/banner17.webp" alt="banner" />
                 </div>
             </div>
             <div className='right'>
