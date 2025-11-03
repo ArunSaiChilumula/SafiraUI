@@ -14,9 +14,7 @@ const Header1 = () => {
                         <a href="#">Russian</a>
                     </div>
                 </div>
-
-                <span>|</span>
-
+                <p></p>
                 <div className="dropdown">
                     <button className="dropbtn">Currency ⏷</button>
                     <div className="dropdown-content">
